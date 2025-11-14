@@ -7,24 +7,13 @@ import { useRouter } from "next/navigation";
 import {
   ChevronDown,
   Search,
-  Phone,
   User,
-  ShoppingCart,
   Menu,
   X,
   MessageSquare,
-  ShoppingCartIcon,
   Handbag,
-  ArrowDown,
-  ArrowDown01,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
 import { logout } from "../actions/logout";
 
 export function Navbar({

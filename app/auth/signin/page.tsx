@@ -48,7 +48,7 @@ export default function SignIn() {
           onClick={handleGoogleSignIn}
           className="w-full flex items-center justify-center py-3 px-4 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 mb-4"
         >
-          <img
+          <Image
             src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
             alt="Google"
             className="w-5 h-5 mr-2"
