@@ -50,6 +50,8 @@ export default function SignIn() {
         >
           <Image
             src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"
+            width={5}
+            height={5}
             alt="Google"
             className="w-5 h-5 mr-2"
           />
