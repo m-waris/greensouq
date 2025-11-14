@@ -1,0 +1,81 @@
+# -----------------------------
+# Node / npm / pnpm / yarn
+# -----------------------------
+node_modules/
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# -----------------------------
+# Next.js
+# -----------------------------
+.next/
+out/
+dist/
+build/
+
+# -----------------------------
+# Prisma
+# -----------------------------
+prisma/dev.db
+prisma/*.db
+prisma/migrations/
+!prisma/migrations/README.md   # keep the README if you have one
+prisma/generated/
+prisma/client/
+
+# -----------------------------
+# Environment variables
+# -----------------------------
+.env
+.env*.local
+.env*.example
+
+# -----------------------------
+# OS / Editor files
+# -----------------------------
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# -----------------------------
+# Vercel / Netlify / Railway
+# -----------------------------
+.vercel
+.netlify
+.vercel_build_output
+.vercel_build_cache
+
+# -----------------------------
+# Turbopack (if you ever enable it)
+# -----------------------------
+.turbo/
+
+# -----------------------------
+# Misc
+# -----------------------------
+coverage/
+*.tsbuildinfo
+*.pem
+*.key
+*.crt
+*.pfx
+*.jks
+
+# -----------------------------
+# Optional: Keep these if you want
+# -----------------------------
+# !.env.example          # keep a template
+# !.vscode/settings.json # keep shared VSCode settings
