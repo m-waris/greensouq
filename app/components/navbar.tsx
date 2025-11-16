@@ -21,7 +21,6 @@ export function Navbar({
 }: {
   user?: { name?: string | null; email?: string | null };
 }) {
-  const router = useRouter();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
