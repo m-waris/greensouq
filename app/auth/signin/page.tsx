@@ -1,12 +1,12 @@
 "use client";
-import RegisterForm from "@/app/components/RegisterForm";
+import SignInForm from "@/app/components/SigninForm";
 import { Suspense } from "react";
 
 export default function SignIn() {
 
  return (
     <Suspense  >
-      <RegisterForm />
+      <SignInForm />
     </Suspense>
   );
 }
